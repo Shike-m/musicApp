@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 90%;
+    margin: 30px auto;
+    background: #d8d8d8;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;    
+    justify-content: flex-start;
+    width: 30%;
+    margin: 30px 20px;
+    background: white;
+    padding-top: 30px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    margin:30px 20px;
+    background-color: #333;
+}
+button {
+    height: 2rem;
+    width: 60%;
+    margin:10px auto;
+    text-align: center;
+    background: green;    
+    color: white;
+}
+.function-area {
+    flex:1;
+    margin: 10px;
+    width: 100%;
+}
+audio {
+    display: block;
+    margin: 0 auto;
+}
+.player {
+    padding: 0 auto;
+}
+.linear-waver .bar-waver {
+    flex:3;
+}
